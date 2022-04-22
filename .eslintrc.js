@@ -15,10 +15,12 @@ module.exports = {
     '@typescript-eslint',
   ],
   rules: {
+    semi: [2, 'never'],
+    'no-unused-vars': [0],
 
     // Import
-    'import/prefer-default-export': 0,
-    'import/no-unresolved': 0,
-    'import/extensions': 0,
+    'import/prefer-default-export': [0],
+    'import/no-unresolved': [0],
+    'import/extensions': [0],
   },
-};
+}
